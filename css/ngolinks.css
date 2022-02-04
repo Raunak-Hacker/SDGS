@@ -1,0 +1,20 @@
+
+  .text2 ul {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    list-style: disc;
+  }
+
+
+  .text2 ul a {
+    font-size: 2rem;
+  }
+
+  .text2 ul a:hover{
+    font-size: 2rem;
+    padding-left : 15px;
+  }
+
+  .text2 ul li a{
+    color:blue;
+  }

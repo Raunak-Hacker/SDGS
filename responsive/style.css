@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,400;1,700&family=Source+Sans+Pro:wght@400;600;700;900&display=swap");
+
+@media (max-width: 700px) {
+  .mainCon {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .upper .mainCon .leftCon {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+
+  .upper .mainCon .rightCon {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+  .leftCon img {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    width: 75vw;
+    height: 50vw;
+    margin-top: 5rem;
+    margin-left: 2.5rem;
+  }
+
+  .upper .mainCon .rightCon .text-box h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 4rem;
+  }
+
+  .pol {
+    margin-top: 6rem;
+  }
+  .text-box {
+    margin-top: 5rem;
+  }
+  .upper {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  /* home page  */
+  /* 
+    .lol{
+        display: block;
+    }
+
+
+    
+    .home {
+        display: none;
+    }
+    .vid video{
+        width: 75vw;
+        height: 50vw;
+        margin-top: 5rem;
+        margin-left: 3.5rem;
+    }
+    h1{
+        font-size: 500px;
+    } */
+}
+
+/* @media (max-width: 1000px) {
+          
+    .header .logo {
+        font-size: 6rem;
+    }
+    .header .navbar {
+      position: absolute;
+      width: 30rem;
+      box-shadow: var(--box-shadow);
+      border-radius: 0.5rem;
+      background: #fff;
+      display: none;
+    }
+
+    .header .navbar a {
+      font-size: 2rem;
+      margin: 2rem 2.5rem;
+      display: block;
+      padding: 0;
+    }
+
+    .header .navbar.active {
+      right: 2rem;
+      transition: 0.4s linear;
+      display: inline-block;
+      top: 11%;
+      right: 0;
+    }
+
+    .vid video {
+      max-width: 109.85vw;
+max-height: 28vh; 
+      margin-top: 10rem;
+      margin-left: 15.5rem;
+    }
+
+    #menu-btn {
+      display: inline-block;
+    }
+
+    .home {
+      display: block;
+    }
+
+    .home .content {
+      margin: 0;
+      width: 100%;
+      text-align: center;
+    }
+
+    footer .box-container {
+      display: block;
+    }
+    html {
+        font-size: x-large;
+    }
+  } */
